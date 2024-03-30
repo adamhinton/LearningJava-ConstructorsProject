@@ -8,7 +8,7 @@ public class Main {
         // RIght now Parent has no constructor
         // Don't actually need to write a constructor to instantiate a class
 
-        Parent parent = new Parent();
+        Parent parent = new Parent("Jane Doe", "01/01/1950");
         Child child = new Child();
 
         System.out.println("Parent: " + parent);
