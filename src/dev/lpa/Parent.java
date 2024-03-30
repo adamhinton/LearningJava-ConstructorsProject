@@ -2,6 +2,14 @@ package dev.lpa;
 
 public class Parent {
 
+    // Static initializer
+    // Runs while the class itself is being initialized
+    // `static` keyword is very imp
+
+    static{
+        System.out.println("Parent static initializer: Parent class being constructed");
+    }
+
     private final String name;
     private final String dob;
     // Protected so subclasses can access
